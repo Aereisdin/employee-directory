@@ -19,7 +19,6 @@ class SearchResultContainer extends Component {
     API.search(query)
       // .then(res => console.log(res.data))
       .then(res => this.setState({ results: res.data.results }))
-      .then(res => console.log(res))
       .catch(err => console.log(err));
   };
 
@@ -39,7 +38,7 @@ class SearchResultContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <SearchForm
           search={this.state.search}
           handleFormSubmit={this.handleFormSubmit}
