@@ -5,11 +5,11 @@ const myStyle = {
   border: "solid",
   borderWidth: "1px",
   borderColor: "#444",
-  fontWeight: 700,
+  fontWeight: 500,
   margin: "5px",
   fontSize: "1.25em",
   color: "#333",
-  background: "rgb(255, 165, 51)",
+  background: "#2D93C2",
 }
 
 function ResultList(props) {

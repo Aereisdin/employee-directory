@@ -2,7 +2,7 @@ import React from "react";
 
 const formStyle = {
   paddingTop: "15px",
-  fontWeight: "900",
+  fontWeight: "500",
   fontSize: "1.5em"
 }
 
